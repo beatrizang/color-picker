@@ -58,6 +58,13 @@ body{
     transition: 0.5s;
 }
 
+@media screen and (max-width: 768px) {
+    .main__info{
+        flex-direction: column;
+    }
+    
+}
+
 @media screen and (max-width: 375px) {
     .main__info{
         flex-direction: column;
